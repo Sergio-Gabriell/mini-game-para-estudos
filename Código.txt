@@ -1,0 +1,117 @@
+```
+clear;
+clc;
+printf ("Autor/Programador:Sergio Gabriel de Souza")
+disp("")
+printf ("Mini game para estudos")
+disp("")
+printf ("Assunto: Organelas (Biologia)")
+disp("")
+init = input("descubra qual é a organela, pressione enter para começar:");
+
+secreto = ["citoplasma" "ribossomos" "cloroplasto" "mitocôndria" "nucleoide" "lisossomos" "membrana plasmática" "núcleo" "complexo de golgi" "retículo endoplasmático rugoso" "retículo endoplasmático liso" "citosol" "carioteca" "flagelo" "centríolo" "peroxissomos" "plasmídios" "centrossomo" "vacúolo central"]
+
+funcao(1) = ("Fluido de aparência gelatinosa, rico em moléculas orgânicas e organelas")
+funcao(2) = ("Realiza a síntese de proteínas")
+funcao(3) = ("Onde ocorre a fotossínte")
+funcao(4) = ("Responsável pelo processo de respiração celular")
+funcao(5) = ("Região onde se encontra a maior parte do DNA da célula procáriotica")
+funcao(6) = ("Promovem a digestão intracelular")
+funcao(7) = ("Essa organela é dotada de três funções principais: revestimento, proteção e permeabilidade seletiva, sendo esta última sua função mais comum")
+funcao(8) = ("Regular as reações químicas que ocorrem dentro da célula (metabolismo)")
+funcao(9) = ("Transporta proteínas no interior da célula")
+funcao(10) = ("Tem como principal função  guardar as proteínas que são usadas pela célula ou exportadas")
+funcao(11) = ("Sintetiza, principalmente, lipídeos, os que constituem a bicamada lipídica da membrana (fosfolipídios)")
+funcao(12) = ("Matriz proteico-gelatinosa, de consistência variável, dentro da qual ficam as organelas")
+funcao(13) = ("Envolver e proteger o material genético que se apresenta na forma de cromatina")
+funcao(14) = ("Responsável pela locomoção da célula em meio líquido")
+funcao(15) = ("Auxiliam na formação dos cílios e dos flagelos")
+funcao(16) = ("Armazenamento de enzimas que catalisam o peróxido de hidrogênio")
+funcao(17) = ("Fragmentos de DNA da célula procariótica")
+funcao(18) = ("Local onde partem os microtúbulos do citoesqueleto, é o centro organizador próximo do núcleo")
+funcao(19) = ("Armazena substâncias que estão relacionadas à nutrição ou excreção, podendo conter enzimas lisossômicas")
+
+    y = grand(1, 1, "uin", 1, 19);
+
+tent = 0;
+chance = 0;
+
+    while chance <> secreto(y)
+        tent = tent+1
+        if tent <=3 then
+            chance = input (funcao(y)+": ","s")
+            if secreto(y) <> chance then
+                printf ("tente novamente")
+            end
+        else
+            break
+        end
+    end
+    if chance == secreto(y) then
+        printf("Parabéns resposta correta!")
+    else
+        disp("Errou","")
+        printf("A resposta era: ")
+        printf (secreto(y))
+        disp ("")
+    end
+
+x = input ("se desejar continuar digite 1|se quiser parar 2:")
+if x==2 then
+    mprintf("Fim do jogo, espero que tenha gostado obrigado por jogar ;)")
+end
+while x==1 then
+
+    tent = 0
+    chance = 0
+
+    secreto = ["citoplasma" "ribossomos" "cloroplasto" "mitocôndria" "nucleoide" "lisossomos" "membrana plasmática" "núcleo" "complexo de golgi" "retículo endoplasmático rugoso" "retículo endoplasmático liso" "citosol" "carioteca" "flagelo" "centríolo" "peroxissomos" "plasmídios" "centrossomo" "vacúolo central"]
+
+    funcao(1) = ("Fluido de aparência gelatinosa, rico em moléculas orgânicas e organelas")
+    funcao(2) = ("Realiza a síntese de proteínas")
+    funcao(3) = ("Onde ocorre a fotossínte")
+    funcao(4) = ("Responsável pelo processo de respiração celular")
+    funcao(5) = ("Região onde se encontra a maior parte do DNA da célula procáriotica")
+    funcao(6) = ("Promovem a digestão intracelular")
+    funcao(7) = ("Essa organela é dotada de três funções principais: revestimento, proteção e permeabilidade seletiva, sendo esta última sua função mais comum")
+    funcao(8) = ("Regular as reações químicas que ocorrem dentro da célula (metabolismo)")
+    funcao(9) = ("Transporta proteínas no interior da célula")
+    funcao(10) = ("Tem como principal função  guardar as proteínas que são usadas pela célula ou exportadas")
+    funcao(11) = ("Sintetiza, principalmente, lipídeos, os que constituem a bicamada lipídica da membrana (fosfolipídios)")
+    funcao(12) = ("Matriz proteico-gelatinosa, de consistência variável, dentro da qual ficam as organelas")
+    funcao(13) = ("Envolver e proteger o material genético que se apresenta na forma de cromatina")
+    funcao(14) = ("Responsável pela locomoção da célula em meio líquido")
+    funcao(15) = ("Auxiliam na formação dos cílios e dos flagelos")
+    funcao(16) = ("Armazenamento de enzimas que catalisam o peróxido de hidrogênio")
+    funcao(17) = ("Fragmentos de DNA da célula procariótica")
+    funcao(18) = ("Local onde partem os microtúbulos do citoesqueleto, é o centro organizador próximo do núcleo")
+    funcao(19) = ("Armazena substâncias que estão relacionadas à nutrição ou excreção, podendo conter enzimas lisossômicas")
+
+    y = grand(1, 1, "uin", 1, 19);
+
+    while chance <> secreto(y)
+        tent = tent+1
+        if tent <=3 then
+            chance = input (funcao(y)+": ","s")
+            if secreto(y) <> chance then
+                printf ("tente novamente")
+            end
+        else
+            break
+        end
+    end
+    if chance == secreto(y) then
+        printf("Parabéns resposta correta!")
+    else
+        disp("Errou","")
+        printf("A resposta era: ")
+        printf (secreto(y))
+        disp ("")
+    end
+
+    x = input("se desejar continuar digite 1|se quiser parar 2:")
+    if x==2 then
+        mprintf("Fim do jogo, espero que tenha gostado obrigado por jogar ;)")
+    end
+end
+```
