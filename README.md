@@ -1,8 +1,5 @@
-# Mini game para estudos
+Este código é um jogo educativo que tem como tema as organelas celulares. O jogador tem que acertar qual é a organela descrita pela função apresentada e tem três tentativas para acertar cada uma delas. Se o jogador acertar a organela, ele passa para a próxima função. Se ele errar, o jogo informa a resposta correta e passa para a próxima função. O jogo permite que o jogador continue jogando quantas vezes quiser, mas o jogador pode escolher sair a qualquer momento digitando "2".
 
-### Data da criação: 20/09/2018
+O código começa com a declaração das funções que descrevem as organelas e seus respectivos nomes armazenados em uma matriz chamada "secreto". Depois, o código entra em um loop que pede que o jogador acerte as organelas descritas pela função. Se o jogador acerta a organela, o loop passa para a próxima função. Se o jogador erra, o loop informa a resposta correta e passa para a próxima função.
 
-> Esse mini game foi desenvolvido com intuito de ajudar na memorização de conteúdos referentes a biologia, podendo ser aplicado a qualquer tema.
-
-
-
+Após o jogador acertar ou errar todas as funções, o código pergunta se o jogador deseja continuar jogando. Se ele digitar "1", o jogo recomeça com as mesmas funções e organelas. Se ele digitar "2", o jogo termina e uma mensagem de agradecimento é mostrada.
