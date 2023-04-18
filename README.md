@@ -1,5 +1,8 @@
-Este código é um jogo educativo que tem como tema as organelas celulares. O jogador tem que acertar qual é a organela descrita pela função apresentada e tem três tentativas para acertar cada uma delas. Se o jogador acertar a organela, ele passa para a próxima função. Se ele errar, o jogo informa a resposta correta e passa para a próxima função. O jogo permite que o jogador continue jogando quantas vezes quiser, mas o jogador pode escolher sair a qualquer momento digitando "2".
+O objetivo deste mini game é fornecer uma experiência educativa e divertida para os jogadores, permitindo que eles testem seus conhecimentos em qualquer tema escolhido para quem tem conhecimento mínimo em programação (scilab). O jogo consiste em uma série de perguntas, cada uma representada por uma função que descreve uma característica ou aspecto do assunto escolhido.
 
-O código começa com a declaração das funções que descrevem as organelas e seus respectivos nomes armazenados em uma matriz chamada "secreto". Depois, o código entra em um loop que pede que o jogador acerte as organelas descritas pela função. Se o jogador acerta a organela, o loop passa para a próxima função. Se o jogador erra, o loop informa a resposta correta e passa para a próxima função.
+O jogador tem três tentativas para acertar cada pergunta. Se o jogador acertar, o jogo passa para a próxima pergunta. Se ele errar, o jogo informa a resposta correta e passa para a próxima pergunta.
 
-Após o jogador acertar ou errar todas as funções, o código pergunta se o jogador deseja continuar jogando. Se ele digitar "1", o jogo recomeça com as mesmas funções e organelas. Se ele digitar "2", o jogo termina e uma mensagem de agradecimento é mostrada.
+O mini game pode ser jogado quantas vezes o jogador quiser, e não se limita apenas a um tema específico, podendo ser adaptado a diferentes assuntos (nesse caso organelas). Caso o jogador deseje sair do jogo, ele pode fazê-lo digitando "2". Se o jogador decidir continuar, o jogo recomeça com uma nova série de perguntas.
+
+Ao final do jogo, uma mensagem de agradecimento é exibida e o jogador pode escolher se deseja continuar jogando ou sair do jogo. Se ele escolher continuar, o jogo recomeça com uma nova série de perguntas. Com essa adaptação, o mini game pode ser uma ferramenta educativa versátil e divertida para jogadores de todas as idades.
+
