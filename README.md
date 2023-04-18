@@ -6,3 +6,4 @@ O mini game pode ser jogado quantas vezes o jogador quiser, e não se limita ape
 
 Ao final do jogo, uma mensagem de agradecimento é exibida e o jogador pode escolher se deseja continuar jogando ou sair do jogo. Se ele escolher continuar, o jogo recomeça com uma nova série de perguntas. Com essa adaptação, o mini game pode ser uma ferramenta educativa versátil e divertida para jogadores de todas as idades.
 
+Código (https://github.com/Sergio-Gabriell/mini-game-para-estudos/blob/master/C%C3%B3digo.txt).
