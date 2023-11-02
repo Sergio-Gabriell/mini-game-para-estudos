@@ -1,9 +1,31 @@
-O objetivo deste mini game é fornecer uma experiência educativa e divertida para os jogadores, permitindo que eles testem seus conhecimentos em qualquer tema escolhido para quem tem conhecimento mínimo em programação (scilab). O jogo consiste em uma série de perguntas, cada uma representada por uma função que descreve uma característica ou aspecto do assunto escolhido.
+Descrição: Mini Jogo de Adivinhação de Organelas Celulares em Biologia
 
-O jogador tem três tentativas para acertar cada pergunta. Se o jogador acertar, o jogo passa para a próxima pergunta. Se ele errar, o jogo informa a resposta correta e passa para a próxima pergunta.
+Este mini game foi criado em Scilab e tem o objetivo de testar o conhecimento sobre as organelas celulares e suas funções em células biológicas. É uma atividade interativa que pode ser usada para fins educacionais e de entretenimento.
 
-O mini game pode ser jogado quantas vezes o jogador quiser, e não se limita apenas a um tema específico, podendo ser adaptado a diferentes assuntos (nesse caso organelas). Caso o jogador deseje sair do jogo, ele pode fazê-lo digitando "2". Se o jogador decidir continuar, o jogo recomeça com uma nova série de perguntas.
+Regras do Jogo:
 
-Ao final do jogo, uma mensagem de agradecimento é exibida e o jogador pode escolher se deseja continuar jogando ou sair do jogo. Se ele escolher continuar, o jogo recomeça com uma nova série de perguntas. Com essa adaptação, o mini game pode ser uma ferramenta educativa versátil e divertida para jogadores de todas as idades.
+O jogador inicia o jogo pressionando Enter.
+
+Uma organela celular é escolhida aleatoriamente a partir de uma lista de organelas celulares.
+
+O jogador tem três tentativas para adivinhar a organela e sua função com base em dicas fornecidas.
+
+Se o jogador acertar a resposta, o jogo parabeniza o jogador pela resposta correta.
+
+Se o jogador errar a resposta após três tentativas, o jogo revela a resposta correta.
+
+O jogador pode optar por continuar jogando ou encerrar o jogo.
+
+Objetivo:
+
+O objetivo do jogo é aprender sobre as diferentes organelas celulares e suas funções de maneira divertida e interativa. É uma ferramenta educacional que ajuda a reforçar o conhecimento em Biologia.
+
+Público-Alvo:
+
+Este jogo é voltado para estudantes e entusiastas de Biologia que desejam testar seus conhecimentos sobre organelas celulares.
+
+Nota:
+
+O jogo pode ser personalizado com mais organelas e funções para uma experiência de aprendizado mais abrangente. Além disso, pode ser adaptado para outros tópicos e áreas de estudo, tornando-o uma ferramenta versátil de aprendizado e entretenimento.
 
 Código (https://github.com/Sergio-Gabriell/mini-game-para-estudos/blob/master/C%C3%B3digo.txt).
