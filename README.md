@@ -1,4 +1,4 @@
-Descrição: Mini Jogo de Adivinhação de Organelas Celulares em Biologia
+#Descrição: Mini Jogo de Adivinhação de Organelas Celulares em Biologia
 
 Este mini game foi criado em Scilab e tem o objetivo de testar o conhecimento sobre as organelas celulares e suas funções em células biológicas. É uma atividade interativa que pode ser usada para fins educacionais e de entretenimento.
 
