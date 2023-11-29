@@ -23,4 +23,4 @@ Este jogo é voltado para estudantes e entusiastas de Biologia que desejam testa
 
 O jogo pode ser personalizado com mais organelas e funções para uma experiência de aprendizado mais abrangente. Além disso, pode ser adaptado para outros tópicos e áreas de estudo, tornando-o uma ferramenta versátil de aprendizado e entretenimento.
 
-Código [Aqui](https://github.com/Sergio-Gabriell/mini-game-para-estudos/blob/master/C%C3%B3digo.txt).
+Código [Aqui](https://github.com/Sergio-Gabriell/mini-game-para-estudos/blob/master/code.txt).
